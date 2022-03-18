@@ -1,0 +1,6 @@
+jieba
+textblob
+wordcloud
+PIL
+numpy
+matplotlib
