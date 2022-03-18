@@ -33,3 +33,14 @@ Configs文件夹下的文件，Utils下为生成数据文件
 pip3 install -r requirements.txt
 ```
 
+## 4. 备注
+
+如果报没有nltk_data的错误请先安装nltk_data，安装好放到运行环境目录下就好，安装可能有问题，可以网上搜或留言要压缩包
+
+Mac用户记得没有文字包先下载msyh.ttc文字包放到本地
+
+## 5. 运行结果展示
+
+样例为养生新闻的词云图
+
+![养生新闻](https://tva1.sinaimg.cn/large/e6c9d24ely1h0eiudukw4j215z0mvacr.jpg)

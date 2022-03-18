@@ -9,8 +9,8 @@ from DrawWordCloud import ImgDraw
 
 
 def main():
-    WordCut()
-    Count()
+    # WordCut()
+    # Count()
     ImgDraw()
 
 
