@@ -23,9 +23,9 @@ Configs文件夹下的文件，Utils下为生成数据文件
 
 | 文件名                | 函数名  | 功能                                   |
 | --------------------- | ------- | -------------------------------------- |
-| CountTermFrequency.py | WordCut | 读取分析文本.txt分词得分词.txt文件     |
-|                       | Count   | 通过分词文件得词频.txt文件             |
-| DrawWordCloud         | ImgDraw | 根据词云背景.png图案绘制生成词云图.png |
+| WordCut.py            | WordCut | 读取分析文本.txt分词得分词.txt文件     |
+| WordCount.py          | Count   | 通过分词文件得词频.txt文件             |
+| DrawWordCloud.py      | ImgDraw | 根据词云背景.png图案绘制生成词云图.png |
 
 ## 3. 配置依赖
 

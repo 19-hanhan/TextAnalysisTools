@@ -4,14 +4,16 @@
 # Author: hanhan 
 # Date: 2022/2/28
 # -------------------------------------------------------------------------------
-from CountTermFrequency import WordCut, Count
-from DrawWordCloud import ImgDraw
+from Configs.config import *
+from Tools.DrawWordCloud import ImgDraw
+from Tools.WordCount import Count
+from Tools.WordCut import WordCut
 
 
 def main():
-    # WordCut()
-    # Count()
-    ImgDraw()
+    WordCut(OriginText, wordCutText, CustomizeWordList)
+    Count(wordCutText, TermFrequencyText, StopWordList)
+    ImgDraw(TermFrequencyText, OutputWordCloudPath, WordCloudBackgroundPath)
 
 
 if __name__ == "__main__":
